@@ -1,0 +1,19 @@
+Index: src/main/resources/db/changelog/app-changelog.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/db/changelog/app-changelog.xml b/src/main/resources/db/changelog/app-changelog.xml
+new file mode 100644
+--- /dev/null	(date 1771452364006)
++++ b/src/main/resources/db/changelog/app-changelog.xml	(date 1771452364006)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<databaseChangeLog
++        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
++        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
++                            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
++
++</databaseChangeLog>
++

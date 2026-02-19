@@ -1,0 +1,14 @@
+Index: src/test/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/src/test/resources/application.properties b/src/test/resources/application.properties
+new file mode 100644
+--- /dev/null	(revision 29f5fbad2c155658f4a547e8269b0b1493639fbe)
++++ b/src/test/resources/application.properties	(revision 29f5fbad2c155658f4a547e8269b0b1493639fbe)
+@@ -0,0 +1,4 @@
++spring.application.name=seminar-inf
++
++# Disable datasource auto-configuration for tests
++spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
